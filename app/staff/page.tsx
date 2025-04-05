@@ -7,17 +7,17 @@ export default function Staff() {
         <h2 className="text-2xl font-semibold mb-2">代表</h2>
         <ul className="list-disc list-inside text-muted-foreground">
           <li>
-            <a href="/profile/rrmk" className="text-blue-500">
+            <a href="/rrmk" className="text-blue-500">
               rrmk
             </a>
           </li>
           <li>
-            <a href="/profile/neneko" className="text-blue-500">
+            <a href="/neneko" className="text-blue-500">
               ねねこ
             </a>
           </li>
           <li>
-            <a href="/profile/raiki" className="text-blue-500">
+            <a href="/raiki" className="text-blue-500">
               夜宮らいき
             </a>
           </li>
@@ -28,7 +28,7 @@ export default function Staff() {
         <h2 className="text-2xl font-semibold mb-2">副代表</h2>
         <ul className="list-disc list-inside text-muted-foreground">
           <li>
-            <a href="/profile/midoneru" className="text-blue-500">
+            <a href="/midoneru" className="text-blue-500">
               みどねる
             </a>
           </li>
@@ -39,12 +39,12 @@ export default function Staff() {
         <h2 className="text-2xl font-semibold mb-2">運営</h2>
         <ul className="list-disc list-inside text-muted-foreground">
           <li>
-            <a href="/profile/nawa" className="text-blue-500">
+            <a href="/nawa" className="text-blue-500">
               なわ
             </a>
           </li>
           <li>
-            <a href="/profile/vigorousumoon" className="text-blue-500">
+            <a href="/vigorousumoon" className="text-blue-500">
               vigorousumoon
             </a>
           </li>
@@ -55,12 +55,12 @@ export default function Staff() {
         <h2 className="text-2xl font-semibold mb-2">運営補佐</h2>
         <ul className="list-disc list-inside text-muted-foreground">
           <li>
-            <a href="/profile/himari" className="text-blue-500">
+            <a href="/himari" className="text-blue-500">
               ひまり
             </a>
           </li>
           <li>
-            <a href="/profile/yomi" className="text-blue-500">
+            <a href="/yomi" className="text-blue-500">
               よみさん
             </a>
           </li>
