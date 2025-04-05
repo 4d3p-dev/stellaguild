@@ -1,6 +1,4 @@
-import React from 'react';
-
-export default function Raiki() {
+const Raiki = () => {
   return (
     <div className="bg-red-500 text-white min-h-screen">
       <div className="relative">
@@ -21,4 +19,6 @@ export default function Raiki() {
       </div>
     </div>
   );
-}
+};
+
+export default Raiki;
