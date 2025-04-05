@@ -16,12 +16,12 @@ const Midoneru = () => {
           <p className="text-sm sm:text-xl mb-2">性別：男</p>
           <p className="text-sm sm:text-xl mb-2">意気込み：雑談界隈で一番大きいサーバーにする</p>
           
-          {/* Unicode (U+1D54F) をボタンにする */}
+          {/* Unicode (U+1D54F) 𝕏 を白い丸いボタンにする */}
           <a 
             href="https://x.com/@midonerujp" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-white bg-blue-500 rounded-full p-4 mt-4 inline-block text-3xl hover:bg-blue-600 transition"
+            className="text-black bg-white rounded-full p-6 mt-4 inline-block text-5xl hover:bg-gray-200 transition"
           >
             𝕏
           </a>
