@@ -23,7 +23,7 @@ const Midoneru = () => {
             rel="noopener noreferrer"
             className="text-white bg-blue-500 rounded-full p-4 mt-4 inline-block text-3xl hover:bg-blue-600 transition"
           >
-            ℏ
+            𝕏
           </a>
         </div>
       </div>
