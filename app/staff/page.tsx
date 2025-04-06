@@ -32,6 +32,11 @@ export default function Staff() {
               みどねる
             </a>
           </li>
+          <li>
+            <a href="/staff/robot" className="text-blue-500">
+              ROBOT
+            </a>
+          </li>
         </ul>
       </section>
 
@@ -62,6 +67,11 @@ export default function Staff() {
           <li>
             <a href="/staff/yomi" className="text-blue-500">
               よみさん
+            </a>
+          </li>
+          <li>
+            <a href="/staff/tiru" className="text-blue-500">
+              ㄘʓ‎
             </a>
           </li>
         </ul>
