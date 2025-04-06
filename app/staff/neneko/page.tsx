@@ -1,0 +1,24 @@
+const Neneko = () => {
+  return (
+    <div className="bg-yellow-200 text-white min-h-screen flex items-center justify-center">
+      <div className="w-full h-full flex flex-col sm:flex-row sm:items-center sm:justify-between">
+        {/* アイコンを上部に固定（スマホではアイコンを上部、PCでは横並びに大きく表示） */}
+        <img 
+          src="https://cdn.discordapp.com/attachments/1358047656001147061/1358240017947824298/ecc0575bde77553ee58e5d5eceee15b4.png?ex=67f31f17&is=67f1cd97&hm=70103304397cc1cc3f87b6bee032b66ef42de2ddb0fcf55df2851defa5a1d96a&" 
+          alt="ねねこ" 
+          className="rounded-full w-40 h-40 sm:w-96 sm:h-96 mx-auto sm:mx-0 sm:mr-6 mb-4 sm:mb-0" 
+        />
+        
+        {/* 自己紹介をアイコンの下に配置（スマホでは縦、PCでは横並びに） */}
+        <div className="text-white bg-black bg-opacity-50 p-4 rounded-lg w-full sm:w-2/3">
+          <p className="font-bold text-lg sm:text-2xl mb-2">名前：ねねこ</p>
+          <p className="text-sm sm:text-xl mb-2">年齢：13</p>
+          <p className="text-sm sm:text-xl mb-2">性別：男</p>
+          <p className="text-sm sm:text-xl mb-2">意気込み：そんなdiscord詳しくないけどお願いします！</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Neneko;
